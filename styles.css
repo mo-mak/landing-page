@@ -1,0 +1,97 @@
+/* * {
+    border: 2px solid red
+} */
+
+body {
+    font-family: Roboto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* - - - COLOR AND FONTS - - - */
+.section-one,
+.footer {
+    background-color: #1F2937;
+}
+
+.header {
+    color: #F9FAF8;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: none;
+    border: 0;
+    padding: 5px 20px;
+    
+}
+
+.section-two {
+
+}
+
+.section-three {
+    background-color: #E5E7EB;
+}
+
+
+/* - - - FLEX PROPERTIES - - - */
+
+/* - - - Section one - - - */
+.section-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+/* - - - Section two - - - */
+.section-two {
+    display: flex;
+}
+
+/* - - - Section three - - - */
+.section-three {
+    display: flex;
+}
+
+
+/* - - - Section four - - - */
+.section-four {
+    display: flex;
+}
+
+.footer {
+    text-align: center;
+}
