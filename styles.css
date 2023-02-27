@@ -1,6 +1,17 @@
+/* - - - DEBUGGER - - - */
+
 /* * {
     border: 2px solid red
 } */
+
+.header,
+.hero
+/* .header-logo */
+{
+    border: 2px solid red;
+}
+
+/* - - - DEBUGGER END - - - */
 
 body {
     font-family: Roboto;
@@ -67,12 +78,22 @@ ul {
 .section-one {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
     display: flex;
-    flex-direction: row;
-    
+    width: 1200px;
+    padding: 8px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-logo {
+    display: flex;
+    margin-right: auto;
 }
 
 
