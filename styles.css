@@ -5,10 +5,12 @@
 } */
 
 .header,
-.hero
-/* .header-logo */
+.hero,
+.section-one
+.section-two
+.header-logo
 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 /* - - - DEBUGGER END - - - */
@@ -27,7 +29,8 @@ ul {
 }
 
 /* - - - COLOR AND FONTS - - - */
-.section-one,
+.header,
+.hero,
 .footer {
     background-color: #1F2937;
 }
@@ -41,10 +44,11 @@ ul {
     color: #F9FAF8
 }
 
-.hero {
+.hero-main {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    border: 5px solid red;
 }
 
 .hero-secondary {
@@ -83,9 +87,9 @@ ul {
 }
 
 .header {
+    margin: 0;
     display: flex;
-    width: 1200px;
-    padding: 8px;
+    padding: 20px 100px;
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
@@ -94,6 +98,23 @@ ul {
 .header-logo {
     display: flex;
     margin-right: auto;
+}
+
+.hero {
+    display: flex;
+    margin: 0;
+    padding: 100px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.hero-image{
+    flex: 1;
+    border: 5px solid blue;
 }
 
 
