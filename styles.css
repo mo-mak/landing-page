@@ -48,7 +48,7 @@ ul {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 .hero-secondary {
@@ -78,18 +78,12 @@ ul {
 
 /* - - - FLEX PROPERTIES - - - */
 
-/* - - - Section one - - - */
-.section-one {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+/* - - - Header and Hero - - - */
 
 .header {
     margin: 0;
     display: flex;
-    padding: 20px 100px;
+    padding: 20px 150px;
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
@@ -103,7 +97,8 @@ ul {
 .hero {
     display: flex;
     margin: 0;
-    padding: 100px;
+    padding: 100px 150px;
+    gap: 25px;
 }
 
 .hero-text {
@@ -114,7 +109,14 @@ ul {
 
 .hero-image{
     flex: 1;
-    border: 5px solid blue;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    /* border: 5px solid blue; */
+}
+
+.hero-button{
+    margin-top: 10px;
 }
 
 
