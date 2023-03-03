@@ -67,9 +67,12 @@ ul {
     
 }
 
-.section-two {
-
+.sec-two-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
 }
+
 
 .section-three {
     background-color: #E5E7EB;
@@ -124,7 +127,8 @@ ul {
 
 .hero-image{
     flex: 1;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     color: white;
     background-color: gray;
     /* border: 5px solid blue; */
