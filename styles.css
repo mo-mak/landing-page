@@ -94,6 +94,8 @@ ul {
 }
 
 
+
+
 /* - - - FLEX PROPERTIES - - - */
 
 /* - - - Header and Hero - - - */
@@ -201,14 +203,46 @@ ul {
     display: flex;
     padding: 50px 120px;
     justify-content: center;
+    color: #F9FAF8;
 
 }
 
 .cta-container {
     display: flex;
+    margin: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 40px 90px;
+    border-radius: 8px;
+    background-color: #3882F6;
     border: 2px solid red
+    
+}
+
+.cta-main {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.cta-secondary {
+
+}
+
+.cta-button {
+    font-weight: 900;
+    border-radius: 8px;
+    padding: 8px 30px;
+    margin-top: 3px;
+    box-shadow: none;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
 
 .footer {
     text-align: center;
+    color: #F9FAF8;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
