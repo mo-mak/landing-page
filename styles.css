@@ -199,6 +199,14 @@ ul {
 /* - - - Section four - - - */
 .section-four {
     display: flex;
+    padding: 50px 120px;
+    justify-content: center;
+
+}
+
+.cta-container {
+    display: flex;
+    border: 2px solid red
 }
 
 .footer {
